@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  font-size: 63.5%;
+  background-color: white;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+/* .app{
+  background-color: #282c34;
+} */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.contenedor {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.content{
+  background-color: #282c34;;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}

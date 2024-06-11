@@ -1,0 +1,9 @@
+.header-categorias{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+    margin: 50px;
+}
+
+img{
+   height: 50vh;
+}

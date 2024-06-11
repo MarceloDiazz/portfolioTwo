@@ -1,0 +1,32 @@
+.content-navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #282c34;
+    position: relative;
+    border-bottom: 1px solid #292626;
+    border-left: 1px solid #292626;
+    border-right: 1px solid #292626;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.content-navbar a{
+    display: block;
+    color: #dadad9;
+    text-decoration: none;
+    padding: 20px;
+    font-size: medium;
+    box-sizing: border-box;
+}
+
+
+svg,rect{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+a:hover{
+    color: white;
+}

@@ -1,0 +1,20 @@
+.nav-container{
+  float: right;
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-container a{
+  padding: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-container .active{
+  background-color: rgba(225, 0, 225, 0.469);
+}
+
+.nav-container a:hover:not(.active){
+  background-color: rgba(0, 0, 0, 0.265);
+}

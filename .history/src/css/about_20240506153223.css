@@ -1,0 +1,51 @@
+.aboutSection{
+    display: grid;
+    align-items: center;
+    position: relative;
+}
+
+.aboutSection h2{
+    margin-bottom: 100px;
+}
+.aboutCardPhoto{
+    position: relative;
+    background-color: rgba(133, 132, 132, 0.185);
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.aboutCardPhoto img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutCard{
+   display: grid;
+   grid-template-columns: 0.5fr 1fr;
+}
+
+.aboutCardContent p{
+    color: white;
+    padding: 30px;
+    align-content: center;
+    margin: 0;
+}
+
+.aboutCardParaGraph span{
+    color: #bfa181;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 600px) {
+    
+    .aboutCard{
+        grid-template-columns: 1fr;
+    }
+
+    .aboutCardPhoto{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+}

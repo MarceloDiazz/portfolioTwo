@@ -1,0 +1,26 @@
+.about{
+    position: relative;
+}
+.aboutCardPhoto{
+    position: relative;
+    background-color: rgba(133, 132, 132, 0.185);
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.aboutCardPhoto img{
+    margin: auto;
+}
+.aboutCard{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   display: grid;
+   grid-template-columns: 0.5fr 1fr;
+}
+
+.aboutCardContent p{
+
+    padding: 30px;
+    align-content: center;
+    margin: 0;
+}

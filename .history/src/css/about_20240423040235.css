@@ -1,0 +1,9 @@
+.squareList {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30px;
+    margin: 1px;
+    background: black;
+}

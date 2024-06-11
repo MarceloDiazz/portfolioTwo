@@ -1,0 +1,74 @@
+html {
+  width: 100%;
+  box-sizing: border-box;
+  /* background-color: #0e1c26; */
+  scroll-behavior: smooth;
+
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+body {
+  font-family: "Onest", sans-serif;
+
+  
+}
+/* .app{
+  background-color: #282c34;
+} */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.contenedor {
+  max-width: 900px;
+  margin: 0px 100px 0px 100px;
+}
+
+.content{
+  display: grid;
+  grid-gap: 10vh;
+-webkit-box-shadow: -1px 0px 86px 0px rgba(0,0,0,0.76);
+-moz-box-shadow: -1px 0px 86px 0px rgba(0,0,0,0.76);
+box-shadow: -1px 0px 86px 0px rgba(0,0,0,0.76);
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  background: hsla(213, 73%, 12%, 1);
+  /* background-color: #282c34;; */
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+
+.arrowIcon{
+  margin-right: 5px;
+  border: solid #bfa181 1px;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+@keyframes rotate {
+    100% {
+        transform: translate(-50%, -50%) rotate(1turn);
+    }
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 750px) {
+  .contenedor{
+    max-width: 500px;
+    margin: 0px 50px 0px 50px;
+  }
+}

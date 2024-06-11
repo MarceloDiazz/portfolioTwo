@@ -1,0 +1,13 @@
+.photo{
+    background-color: red;
+
+}
+
+img{
+    height: 400px;
+    width: 100%;
+}
+.aboutContent{
+    display: flex;
+    
+}

@@ -1,0 +1,9 @@
+.squareList {
+    display: flex;
+    background-color: red;
+}
+
+.squareList div{
+    height: 30px;
+    margin: 5px;
+}

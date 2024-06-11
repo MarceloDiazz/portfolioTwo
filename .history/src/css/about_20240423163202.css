@@ -1,0 +1,22 @@
+.about{
+    height: 80vh;
+    position: relative;
+}
+.photo{
+    position: relative;
+    background-color: rgba(133, 132, 132, 0.185);
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.photo img{
+    margin: auto;
+}
+.aboutCard{
+   display: grid;
+   grid-template-columns: 0.5fr 1fr;
+}
+
+.aboutCard content{
+    margin: 0;
+}

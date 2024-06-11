@@ -1,0 +1,25 @@
+.content-navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.content-navbar a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: medium;
+    flex-wrap: wrap;
+}
+
+a:hover{
+    border-bottom: 2px solid #bfa181;
+    margin: 0;
+    padding: 0;
+}
+
+/* .arrow{
+    border-bottom: 1px solid white;
+} */

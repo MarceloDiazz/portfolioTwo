@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  font-size: 63.5%;
+  /* background-color: #0e1c26; */
+  box-shadow: 0px 0px 25px #ddb2b2;
+  backdrop-filter: blur(10px);
+  background: hsla(212, 72%, 11%, 1);
+
+  background: radial-gradient(circle, hsla(212, 72%, 11%, 1) 31%, hsla(212, 60%, 10%, 1) 64%);
+  
+  background: -moz-radial-gradient(circle, hsla(212, 72%, 11%, 1) 31%, hsla(212, 60%, 10%, 1) 64%);
+  
+  background: -webkit-radial-gradient(circle, hsla(212, 72%, 11%, 1) 31%, hsla(212, 60%, 10%, 1) 64%);
+
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+}
+/* .app{
+  background-color: #282c34;
+} */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.contenedor {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content{
+  /* background-color: #282c34;; */
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+
+.arrowIcon{
+  border: solid #bfa181 1px;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}

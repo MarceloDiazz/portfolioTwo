@@ -1,0 +1,45 @@
+/* BOX MODEL */
+.sobre-nosotros {
+    /* DE UN LADO LA IMAGEN Y DE OTRO EL TEXTO */
+    background-image: linear-gradient(
+        to right,
+        transparent 50%,
+        #037bc0 50%,
+        #037bc0 100%
+      ),
+      url("../img/nosotros.jpg");
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    /* 100 PARA UN LADO Y 120 PARA EL OTRO */
+    background-size: 100%, 120rem;
+    background-position: left center;
+  }
+  
+  /* FORMA CON GRID */
+  
+  /* .sobre-nosotros-grid{
+    display: grid;
+    repeat 2 significa de 2 columnas y 1 fr el tamaño de la columna
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8rem;
+  }
+  
+  para posicionar el texto en la columna 2
+  .texto-nosotros{
+    grid-column: 2 / 3;
+  } */
+  
+  /* FORMA CON FLEXBOX */
+  
+  .sobre-nosotros-grid {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .texto-nosotros {
+    /* ANCHO DEL ELEMENTO*/
+    flex-basis: 50%;
+    padding-left: 5rem;
+    color: white;
+  }
+  

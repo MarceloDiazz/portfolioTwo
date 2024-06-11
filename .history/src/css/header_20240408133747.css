@@ -1,0 +1,22 @@
+.header-categorias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+    gap: 40px;
+}
+
+@media (max-width: 600px) {
+    .header-categorias { grid-template-columns: repeat(1, 1fr); }
+  }
+
+img{
+    object-fit: cover;
+    height: 50vh;
+    width: 90%;
+    mask-image: linear-gradient(#282c34 80%, transparent);
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+}

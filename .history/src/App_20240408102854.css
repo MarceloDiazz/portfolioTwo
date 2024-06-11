@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+  font-size: 63.5%;
+  
+}
+/* .app{
+  background-color: #282c34;
+} */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content{
+  background-color: #282c34;;
+}

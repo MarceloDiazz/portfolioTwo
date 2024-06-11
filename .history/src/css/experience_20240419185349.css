@@ -1,0 +1,91 @@
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin: 70px 30px 70px;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background: rgba(126, 126, 126, 0.514);
+    top: 0;
+    bottom: 0;
+    left: 1%;
+    height: 100%;
+  }
+  
+  /* Container around content */
+  .container {
+        height: 35vh;
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+  }
+  
+  /* circulo indica la posicion */
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+    border: 4px solid yellow;
+    top: 41%;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  /* Flecha < */
+  .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 41%;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: 0.4%;
+  }
+  
+  /* The actual content */
+  .content-timeline {
+    padding: 15px;
+    border: 1px solid white;
+    top: 5%;
+    position: absolute;
+    margin: 0 15px;
+    /* position: relative; */
+    border-radius: 6px;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+  /* Full-width containers */
+    .container {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+
+  
+  /* Make sure all circles are at the same spot */
+    .left::after, .right::after {
+      left: 15px;
+    }
+  
+  /* Make all right containers behave like the left ones */
+    .right {
+      left: 0%;
+    }
+  }

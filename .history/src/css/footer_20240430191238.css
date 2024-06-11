@@ -1,0 +1,16 @@
+.footer{
+    color: white;
+    background-color: black;
+}
+
+.contactFooter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.contactFooter h4{
+    margin: 0;
+}

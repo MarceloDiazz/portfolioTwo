@@ -1,0 +1,11 @@
+.header-categories{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 500px;
+    grid-template-rows: 300px 100px;
+}
+
+ img{
+    display: block;
+    max-width: 100%;
+}

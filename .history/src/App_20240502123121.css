@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+  font-size: 63.5%;
+  /* background-color: #0e1c26; */
+  backdrop-filter: blur(10px);
+  background: hsla(213, 73%, 12%, 1);
+
+  background: radial-gradient(circle, hsla(213, 73%, 12%, 1) 31%, hsla(211, 68%, 15%, 1) 58%);
+  
+  background: -moz-radial-gradient(circle, hsla(213, 73%, 12%, 1) 31%, hsla(211, 68%, 15%, 1) 58%);
+  
+  background: -webkit-radial-gradient(circle, hsla(213, 73%, 12%, 1) 31%, hsla(211, 68%, 15%, 1) 58%);
+  scroll-behavior: smooth;
+
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+body {
+  font-family: "Onest", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2;
+  
+}
+/* .app{
+  background-color: #282c34;
+} */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+
+
+@keyframes rotate {
+    100% {
+        transform: translate(-50%, -50%) rotate(1turn);
+    }
+}
+
+
+/* RESPONSIVE DESIGN */

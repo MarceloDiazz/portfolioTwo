@@ -1,0 +1,20 @@
+.about{
+    height: 80vh;
+    position: relative;
+}
+.photo{
+    background-color: rgba(133, 132, 132, 0.185);
+    border-radius: 100%;
+}
+
+.photo img{
+    height: 500px;
+    max-width: 500px;
+}
+.aboutContent{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    
+}

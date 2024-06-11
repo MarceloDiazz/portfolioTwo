@@ -1,0 +1,9 @@
+.content-navbar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-navbar a{
+    padding: 20px;
+    font-size: medium;
+}

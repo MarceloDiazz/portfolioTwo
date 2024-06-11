@@ -1,0 +1,25 @@
+.header{
+    margin-top: 20px;
+}
+@media (max-width: 600px) {
+    .header-categorias { grid-template-columns: repeat(1, 1fr); }
+  }
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+img{
+    object-fit: cover;
+    height: 50vh;
+    width: 100%;
+    /* mask-image: linear-gradient(#282c34 80%, transparent); */
+    border-radius: 10px;
+    box-shadow: rgba(221, 211, 217, 0.4) 5px 5px, rgba(233, 205, 222, 0.3) 10px 10px, rgba(221, 200, 213, 0.2) 15px 15px, rgba(248, 245, 247, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+h1, h2{
+    color: white;
+}
