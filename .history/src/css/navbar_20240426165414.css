@@ -1,0 +1,84 @@
+.navbar {
+  height: 100px;
+}
+
+.content-navbar {
+  z-index: 1;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.6s;
+  top: 0;
+}
+.content-navbar ul {
+  margin: 10px;
+  background-color: rgba(133, 131, 131, 0.63); /* Black w/opacity/see-through */
+  color: white;
+  z-index: 2;
+  border-radius: 30px;
+  /* filter: blur(1px); */
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.content-navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  font-size: medium;
+  flex-wrap: wrap;
+}
+
+.logo {
+  position: absolute;
+  left: 0;
+  bottom: 25%;
+  width: 40px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  margin: 0;
+}
+.nav-links li {
+  list-style: none;
+  margin: 0 12px;
+}
+.nav-links li a {
+  position: relative;
+  /* color: white; */
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-decoration: none;
+}
+
+/* .hover-3 {
+  --b: 0.1em; 
+  --c: #bfa181;
+
+  color: #0000;
+  padding-block: var(--b);
+  background: linear-gradient(var(--c) 50%, #000 0) 0%
+      calc(100% - var(--_p, 0%)) / 100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%) / var(--_p, 0%) var(--b)
+      no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.3s var(--_s, 0s) linear,
+    background-size 0.3s calc(0.3s - var(--_s, 0s));
+}  */
+
+.nav-links .active{
+  color: #bfa181;
+}
+
+.nav-links li a:hover:not(.active){
+  color: #bfa181;
+}

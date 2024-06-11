@@ -1,0 +1,19 @@
+.squareList {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 100%;
+
+}
+
+.squareList div{
+    border: solid #ffffff1e 1px;
+    height: 150px;
+    width: 150px;
+    -webkit-box-shadow: inset 0px 0px 42px 5px rgba(0,0,0,0.74);
+-moz-box-shadow: inset 0px 0px 42px 5px rgba(0,0,0,0.74);
+box-shadow: inset 0px 0px 42px 5px rgba(0,0,0,0.74);
+
+}

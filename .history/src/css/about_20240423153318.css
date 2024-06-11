@@ -1,0 +1,9 @@
+.photo{
+    background-color: red;
+
+}
+
+.aboutContent{
+    display: flex;
+    justify-self: center;
+}

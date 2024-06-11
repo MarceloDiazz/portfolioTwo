@@ -1,0 +1,11 @@
+.content-navbar{
+    display: flex;
+    justify-content: flex-end;
+  background-color: #282c34;
+
+}
+
+.content-navbar a{
+    padding: 20px;
+    font-size: medium;
+}

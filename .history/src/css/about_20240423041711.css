@@ -1,0 +1,15 @@
+.squareList {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    height: 100%;
+
+}
+
+.squareList div{
+    border: solid #ffffff 1px;
+    height: 150px;
+    width: 150px;
+}

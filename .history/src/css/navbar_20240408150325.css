@@ -1,0 +1,22 @@
+.content-navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    outline: red 10px;
+}
+
+.content-navbar a{
+    display: block;
+    color: #dadad9;
+    text-decoration: none;
+    padding: 20px;
+    font-size: medium;
+}
+
+a:hover{
+    color: black;
+    border-bottom: 2px solid white;
+    margin: 0;
+}

@@ -1,0 +1,44 @@
+.content-navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #282c34;
+    position: relative;
+    border-bottom: 1px solid #292626;
+    border-left: 1px solid #292626;
+    border-right: 1px solid #292626;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    align-items: center;
+}
+.content-navbar::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 10px;
+    width: 100%;
+    background-image: conic-gradient(red 20deg, transparent 120deg);
+    animation: rotar 2s linear infinite;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+.content-navbar a{
+    display: block;
+    color: #dadad9;
+    text-decoration: none;
+    padding: 20px;
+    font-size: medium;
+}
+
+a:hover{
+    color: white;
+}

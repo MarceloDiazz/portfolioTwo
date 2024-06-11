@@ -1,0 +1,8 @@
+.content-navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.content-navbar a{
+    padding: 20px;
+}

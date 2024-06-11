@@ -1,0 +1,36 @@
+.aboutSection{
+    display: grid;
+    align-items: center;
+    position: relative;
+}
+
+.aboutSection h1{
+    margin-bottom: 100px;
+}
+.aboutCardPhoto{
+    position: relative;
+    background-color: rgba(133, 132, 132, 0.185);
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.aboutCardPhoto img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutCard{
+   display: grid;
+   grid-template-columns: 0.5fr 1fr;
+}
+
+.aboutCardContent p{
+    color: white;
+    padding: 30px;
+    align-content: center;
+    margin: 0;
+}
+
+.aboutCardParaGraph span{
+    color: #bfa181;
+}

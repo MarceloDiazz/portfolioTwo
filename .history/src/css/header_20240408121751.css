@@ -1,0 +1,8 @@
+.header-categorias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+    height: 50vh;
+    overflow: hidden;
+}
+

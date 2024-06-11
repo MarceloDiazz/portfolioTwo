@@ -1,0 +1,21 @@
+.content-navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    border-radius: 0px 0px 10px 10px;
+    outline: red 10px;
+}
+
+.content-navbar a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: medium;
+}
+
+a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+    margin: 0;
+}

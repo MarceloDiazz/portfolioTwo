@@ -1,0 +1,11 @@
+.squareList {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.589);
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.squareList div{
+    height: 30px;
+}

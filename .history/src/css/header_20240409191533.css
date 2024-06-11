@@ -1,0 +1,106 @@
+.header {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media (max-width: 1100px) {
+  .card-content {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .card {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+
+.card-content {
+    grid-column: 2 / 5;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-text {
+  color: white;
+  padding: 2rem;
+}
+.img-perfil {
+  object-fit: cover;
+  height: 50vh;
+  width: 100%;
+  /* mask-image: linear-gradient(#282c34 80%, transparent); */
+  border-radius: 10px;
+  box-shadow: rgba(221, 211, 217, 0.4) 5px 5px,
+    rgba(233, 205, 222, 0.3) 10px 10px, rgba(221, 200, 213, 0.2) 15px 15px,
+    rgba(248, 245, 247, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 800;
+  line-height: 1em;
+  font-size: 53px;
+  color: white;
+}
+
+h1 span {
+  color: #bfa181;
+}
+
+p {
+  line-height: 1.66em;
+  font-family: "Lato";
+  font-size: 24px;
+}
+
+.arrow {
+  border: solid rgb(255, 255, 255) 1px;
+  width: 50%;
+}
+.arrowBottom {
+  border: solid rgb(255, 255, 255) 1px;
+  width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+}
+
+
+.arrowIcon{
+    border: solid #bfa181 1px;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.follow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.follow img{
+    padding: 5px;
+
+    height: 30px;
+}
+
+.follow a{
+    margin: 0;
+    cursor: pointer;
+    height: 50px;
+    border: ridge white;
+    border-radius: 10px;
+}

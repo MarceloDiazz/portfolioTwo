@@ -1,0 +1,34 @@
+html {
+
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+body {
+  
+}
+/* .app{
+  background-color: #282c34;
+} */
+
+
+
+
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+
+
+@keyframes rotate {
+    100% {
+        transform: translate(-50%, -50%) rotate(1turn);
+    }
+}
+
+
+/* RESPONSIVE DESIGN */

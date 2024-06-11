@@ -1,0 +1,16 @@
+.about{
+    height: 80vh;
+}
+.photo{
+    background-color: red;
+
+}
+
+img{
+    height: 400px;
+    width: 400px;
+}
+.aboutContent{
+    display: flex;
+    
+}

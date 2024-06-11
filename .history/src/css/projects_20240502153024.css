@@ -1,0 +1,50 @@
+.projectsSection {
+  position: relative;
+}
+
+.arrowIconTitle {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border: solid #bfa181 1px;
+  border-width: 0 7px 6px 0;
+  display: inline-block;
+  padding: 11px;
+}
+
+.cards {
+  color: white;
+  display: grid;
+  grid-gap: 60px;
+  padding-top: 80px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.card-projects {
+  grid-gap: 20px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.card-projects img{
+  border-radius: 10px;
+}
+.card-description{
+  display: grid;
+}
+.card-description p{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 0;
+  padding-left: 5px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 600px) {
+  .card-projects{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+

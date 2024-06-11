@@ -1,0 +1,19 @@
+.about{
+    height: 80vh;
+    position: relative;
+}
+.photo{
+    background-color: red;
+    border-radius: 60%;
+    position: relative;
+}
+
+.photo img{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+}
+.aboutContent{
+    display: flex;
+    
+}

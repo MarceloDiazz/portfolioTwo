@@ -1,0 +1,9 @@
+.footer{
+    color: white;
+    background-color: black;
+}
+
+.contactFooter{
+    display: flex;
+    justify-content: space-around;
+}

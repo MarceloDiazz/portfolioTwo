@@ -1,0 +1,6 @@
+.squareList div{
+    height: 30px;
+    width: 0 auto;
+    margin: 1px;
+    background: black;
+}

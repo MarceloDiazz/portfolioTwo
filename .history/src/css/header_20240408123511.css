@@ -1,0 +1,13 @@
+.header-categorias{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px;
+}
+
+@media (max-width: 600px) {
+    .header-categorias { grid-template-columns: repeat(auto-fill, 1fr); }
+  }
+
+img{
+   height: 50vh;
+}
