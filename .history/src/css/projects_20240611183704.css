@@ -74,7 +74,7 @@
   position: absolute;
   color: black;
   margin: 0;
-  top: 24%;
+  top: 27%;
 }
 
 .card-description h3 {
@@ -83,26 +83,12 @@ top: -5%;
   color: black;
 }
 .stackProjects {
-  top: 13%;
-  color: rgb(0, 0, 0);
+  top: 18%;
+  color: red;
   position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.stackProjects div{
-  align-items: center;
-  padding: 3px;
-  border-radius: 10px;
-  display: flex;
-  gap: 5px;
-}
-.stackProjects span{
-  color: white;
-  display: flex;
 }
 .buttonsProject {
-  bottom: -7%;
+  bottom: -8%;
   color: red;
   position: absolute;
 }

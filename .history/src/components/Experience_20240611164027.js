@@ -47,34 +47,41 @@ const Experience = () => {
             <img src={iconSpain} />
             <img src={iconPortugal} />
         </li>
-        <li className="tag">
+        <li>
+          <a href="#" class="tag">
             Drag and Drop (Similar a Trello)
             <img src={iconDrag} />
+          </a>
         </li>
-        <li className="tag">
-         
+        <li>
+          <a href="#" class="tag">
             Manejo de versiones con Git
             <img src={iconGit} />
+          </a>
         </li>
-        <li className="tag">
-         
+        <li>
+          <a href="#" class="tag">
             Plan de usuario
             <img src={iconPlanUser} />
+          </a>
         </li>
-        <li className="tag">
-         
+        <li>
+          <a href="#" class="tag">
             Optimizacion de codigo
             <img src={iconSpeed} />
+          </a>
         </li>
-        <li className="tag">
-         
+        <li>
+          <a href="#" class="tag">
             Nuevas secciones
             <img src={IconNew} />
+          </a>
         </li>
-        <li className="tag">
-         
+        <li>
+          <a href="#" class="tag">
             Encuentros semanales para definir proyectos
             <img src={iconMeeting} />
+          </a>
         </li>
       </ul>
       </div>

@@ -23,12 +23,13 @@ const Experience = () => {
           <div class="content-timeline">
             <div className="puesto">
               <h3>Desarrollador Front End</h3>
-              <h4>Oryzativa</h4>
+              <h5>Oryzativa</h5>
               <time>Marzo 2022 - Mayo 2024</time>
             </div>
             <div className="puesto-descripcion">
-              <p> 
-                Fuí responsable de toda la aplicación web, utilicé como framework principal ReactJS.<br />
+              <p>
+                En React soy responsable de toda la aplicación web y en Flutter
+                soy parte de un grupo de trabajo. <br />
                 Enfrenté desafíos técnicos como la optimización de rendimiento y
                 la integración de características complejas, que resolví
                 mediante análisis profundo y la implementación de soluciones
@@ -41,40 +42,49 @@ const Experience = () => {
         </div>
       </div>
       <ul class="tags">
-        <li className="tag">
+        <li>
+          <a href="#" class="tag">
             Traduccion
             <img src={iconEnglish} />
             <img src={iconSpain} />
             <img src={iconPortugal} />
+          </a>
         </li>
-        <li className="tag">
+        <li>
+          <a href="#" class="tag">
             Drag and Drop (Similar a Trello)
             <img src={iconDrag} />
+          </a>
         </li>
-        <li className="tag">
-         
+        <li>
+          <a href="#" class="tag">
             Manejo de versiones con Git
             <img src={iconGit} />
+          </a>
         </li>
-        <li className="tag">
-         
+        <li>
+          <a href="#" class="tag">
             Plan de usuario
             <img src={iconPlanUser} />
+          </a>
         </li>
-        <li className="tag">
-         
+        <li>
+          <a href="#" class="tag">
             Optimizacion de codigo
             <img src={iconSpeed} />
+          </a>
         </li>
-        <li className="tag">
-         
+        <li>
+          <a href="#" class="tag">
             Nuevas secciones
             <img src={IconNew} />
+          </a>
         </li>
-        <li className="tag">
-         
+        <li>
+          <a href="#" class="tag">
             Encuentros semanales para definir proyectos
             <img src={iconMeeting} />
+          </a>
         </li>
       </ul>
       </div>

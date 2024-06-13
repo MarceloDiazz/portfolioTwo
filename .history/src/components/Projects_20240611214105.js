@@ -32,7 +32,7 @@ const Projects = () => {
 
                 <span>TypeScript</span>
               </div>
-              <div style={{background:"#38bdf891"}}>
+              <div style={{background:"#ff3e008a"}}>
 
                 <TailwindSvgIcon />
 

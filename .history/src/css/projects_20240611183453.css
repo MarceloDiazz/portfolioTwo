@@ -30,7 +30,7 @@
   border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 12px;
+  padding: 3px;
   background: #f4f3ef;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
@@ -74,35 +74,20 @@
   position: absolute;
   color: black;
   margin: 0;
-  top: 24%;
+  top: 25%;
 }
 
 .card-description h3 {
-top: -5%;
   position: absolute;
   color: black;
 }
 .stackProjects {
-  top: 13%;
-  color: rgb(0, 0, 0);
+  top: 17%;
+  color: red;
   position: absolute;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.stackProjects div{
-  align-items: center;
-  padding: 3px;
-  border-radius: 10px;
-  display: flex;
-  gap: 5px;
-}
-.stackProjects span{
-  color: white;
-  display: flex;
 }
 .buttonsProject {
-  bottom: -7%;
+  bottom: -8%;
   color: red;
   position: absolute;
 }

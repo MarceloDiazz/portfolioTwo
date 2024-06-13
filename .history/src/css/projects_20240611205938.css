@@ -87,15 +87,16 @@ top: -5%;
   color: rgb(0, 0, 0);
   position: absolute;
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
 }
 .stackProjects div{
   align-items: center;
+  border: 1px solid;
   padding: 3px;
   border-radius: 10px;
   display: flex;
-  gap: 5px;
+  background-color: black;
+  gap: 1px;
 }
 .stackProjects span{
   color: white;

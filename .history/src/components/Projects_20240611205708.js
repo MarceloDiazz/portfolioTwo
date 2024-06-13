@@ -22,18 +22,16 @@ const Projects = () => {
           <div className="card-description">
             <h3>StyleCraft</h3>
             <div className="stackProjects">
-              <div style={{background:"#ff3e008a"}}>
+              <div>
                 <SvelteSvgIcon />
                 <span>Svelte</span>
               </div>
-              <div style={{background:"#3178c691"}}>
-
+              <div>
                 <TypeScriptSvgIcon />
 
                 <span>TypeScript</span>
               </div>
-              <div style={{background:"#38bdf891"}}>
-
+              <div>
                 <TailwindSvgIcon />
 
                 <span>Tailwind CSS</span>
