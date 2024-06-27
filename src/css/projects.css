@@ -30,24 +30,18 @@
   border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 12px;
+  padding: 5px;
   background: #f4f3ef;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-
-.card-projects:hover{
-	box-shadow: 0 34px 32px -33px rgba(0, 0, 0, .18);
+.card-projects:hover {
+  box-shadow: 0 34px 32px -33px rgba(0, 0, 0, 0.18);
 }
-.card-img{
-	height: 100%;
-	transition: transform 0.2s ease;
+.card-img {
+  position: relative;
+  height: 100%;
 }
-.card-projects:hover .card-img {
-	transform: scale(1.05) rotate(0deg);
-  }
-
-
 
 .card-description {
   position: absolute;
@@ -58,56 +52,71 @@
   font-size: 17px;
 }
 
-.card-description::before {
-  content: "";
-  position: absolute;
-  display: block;
-  background: #f4f3ef;
-  top: -20%;
-  left: -55px;
-  height: 140%;
-  width: 60px;
-  transform: rotate(8deg);
-}
-
 .card-description p {
   position: absolute;
   color: black;
   margin: 0;
-  top: 24%;
+  top: 30%;
 }
 
 .card-description h3 {
-top: -5%;
+  top: -5%;
   position: absolute;
   color: black;
 }
 .stackProjects {
-  top: 13%;
+  top: 15%;
   color: rgb(0, 0, 0);
   position: absolute;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-.stackProjects div{
+.stackProjects div {
   align-items: center;
-  padding: 3px;
-  border-radius: 10px;
+  padding: 4px;
+  border-radius: 3px;
   display: flex;
   gap: 5px;
 }
-.stackProjects span{
+.stackProjects span {
   color: white;
   display: flex;
 }
 .buttonsProject {
-  bottom: -7%;
-  color: red;
+  gap: 25px;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  bottom: 10%;
   position: absolute;
 }
 /* RESPONSIVE DESIGN */
+.buttonsProject button {
+  background: none;
+  border: none;
+  color: white;
+}
 
+.buttonsProject a:hover {
+  background-color: black;
+}
+.buttonsProject a {
+  font-size: 18px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background: rgba(0, 0, 0, 0.781);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.buttonsProject img {
+  max-height: 23px;
+}
 
 .cards {
   color: white;
@@ -126,37 +135,33 @@ top: -5%;
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 800px) {
-
-.card-description {
-	position: relative;
-	width: 100%;
-	left: 0;
-	top: 0;
-	bottom: 0;
-}
-.card-description::before {
-	content: "";
-	display: none;
-}
-.card-description h3{
-	position: relative;
-}
-.card-description p {
-	position: relative;
-}
-.buttonsProject {
-	position: relative;
-}
-.stackProjects {
-	position: relative;
-}
-
+  .card-description {
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 20px 5px 30px 5px;
+  }
+  .card-description::before {
+    content: "";
+    display: none;
+  }
+  .card-description h3 {
+    position: relative;
+  }
+  .card-description p {
+    position: relative;
+  }
+  .stackProjects {
+    position: relative;
+  }
 }
 
 @media (max-width: 600px) {
-	.card-projects {
-		max-width: 500px;
-		margin: 0 auto;
-	  grid-template-columns: repeat(1, 1fr);
-	}
+  .card-projects {
+    max-width: 500px;
+    margin: 0 auto;
+    grid-template-columns: repeat(1, 1fr);
   }
+}

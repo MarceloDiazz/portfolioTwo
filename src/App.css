@@ -32,7 +32,7 @@ h2{
 }
 
 h3{
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 500;
 }
 h4{
@@ -40,9 +40,19 @@ h4{
   font-weight: 500;
 }
 
+h5{
+  font-size: 17px;
+  font-weight: 500;
+}
 time{
   margin: 2px;
-  font-size: 15px;
+  font-size: 12px;
+}
+
+.titleSections{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 p {
@@ -75,9 +85,9 @@ img{
 .arrowIcon{
   margin-right: 5px;
   border: solid #bfa181 1px;
-  border-width: 0 3px 3px 0;
+  border-width: 0 2px 2px 0;
   display: inline-block;
-  padding: 6px;
+  padding: 4px;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
 }

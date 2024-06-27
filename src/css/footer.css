@@ -1,30 +1,26 @@
-.footer{
-    border-top: 1px solid white;
-    color: white;
+.footer {
+  border-top: 1px solid white;
+  color: white;
 }
 
-.contactFooter{
-    margin-bottom: 40px;
-    margin-top: 40px;
-    justify-content: space-around;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    
+.contentFooter {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.contactFooter div{
-    display: flex;
-    align-items: center;
-    gap: 5px;
+.contactFooter {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.contactFooter h4{
-    margin: 0;
+.contactFooter h4 {
+  margin: 0;
 }
 
-.contentContact img{
-    border: ridge white ;
-    padding: 5px;
+.contentContact img {
+  border: ridge white;
+  padding: 5px;
 }

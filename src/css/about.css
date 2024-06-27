@@ -1,52 +1,101 @@
-.aboutSection{
-    display: grid;
-    align-items: center;
-    position: relative;
+.aboutSection {
+  display: grid;
+  align-items: center;
+  position: relative;
 }
 
-.aboutSection h2{
-    margin-bottom: 100px;
-}
-.aboutCardPhoto{
-    position: relative;
-    background-color: rgba(133, 132, 132, 0.185);
-    border-radius: 10%;
-    overflow: hidden;
+.aboutCardPhoto img {
+  height: 100%;
+  object-fit: cover;
 }
 
-.aboutCardPhoto img{
-    height: 100%;
-    object-fit: cover;
+.aboutCard {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
 }
 
-.aboutCard{
-   display: grid;
-   grid-template-columns: 0.5fr 1fr;
+.aboutCardContent {
+  color: white;
+  padding: 30px;
+  align-content: center;
+  margin: 0;
 }
 
-.aboutCardContent p{
-    color: white;
-    padding: 30px;
-    align-content: center;
-    margin: 0;
+.aboutCardParaGraph span {
+  color: #bfa181;
 }
 
-.aboutCardParaGraph span{
-    color: #bfa181;
+.stackList {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+}
+.stackList li {
+  float: left;
 }
 
+.stackItem {
+  font-size: 16px;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  height: 25px;
+  padding: 0 25px 0 25px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+}
+
+/* JS */
+.stackItem:nth-child(1) {
+  color: rgb(58, 53, 53);
+  background-color: #f7df1e;
+}
+/* REACT */
+.stackItem:nth-child(2) {
+  background-color: #1399c4;
+}
+
+/* TS */
+.stackItem:nth-child(3) {
+  background-color: #007acc;
+}
+
+/* GIT */
+.stackItem:nth-child(4) {
+  background-color: #e84d31;
+}
+/* Tailwind */
+.stackItem:nth-child(5) {
+  background-color: #36b7f0;
+}
+
+/* Firebase */
+.stackItem:nth-child(6) {
+  color: rgb(58, 53, 53);
+
+  background-color: #ffcc28;
+}
+/* Flutter */
+.stackItem:nth-child(7) {
+  background-color: #085597;
+}
 
 /* RESPONSIVE DESIGN */
 
 @media (max-width: 600px) {
-    
-    .aboutCard{
-        grid-template-columns: 1fr;
-    }
+  .aboutCard {
+    grid-template-columns: 1fr;
+  }
 
-    .aboutCardPhoto{
-        background: none;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
+  .aboutCardPhoto {
+    background: none;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }

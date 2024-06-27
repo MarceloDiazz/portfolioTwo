@@ -3,7 +3,6 @@
   height: 100%;
 }
 
-
 .card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -29,22 +28,16 @@
 }
 
 
-
-/* h1 span {
-  color: #bfa181;
-} */
-
 /* button styling */
 .distinguish {
   --border-right: 6px;
-  --text-stroke-color: rgba(255,255,255,0.6);
+  --text-stroke-color: rgba(255, 255, 255, 0.6);
   --animation-color: #bfa181;
   --fs-size: 45px;
   letter-spacing: 3px;
   text-decoration: none;
   font-size: var(--fs-size);
   position: relative;
-  /* -webkit-text-stroke: 1px var(--text-stroke-color); */
 }
 /* this is the text, when you hover on button */
 .hover-text {
@@ -55,22 +48,7 @@
   inset: 0;
   overflow: hidden;
   transition: 0.5s;
-  /* -webkit-text-stroke: 1px var(--animation-color); */
-  filter: drop-shadow(0px 0px 1px var(--animation-color))
-  
-}
-
-
-
-.arrow {
-  border: solid rgb(255, 255, 255) 1px;
-  width: 50%;
-}
-.arrowBottom {
-  border: solid rgb(255, 255, 255) 1px;
-  width: 50%;
-  position: absolute;
-  right: 0;
+  filter: drop-shadow(0px 0px 1px var(--animation-color));
 }
 
 .follow {
@@ -84,24 +62,14 @@
 }
 
 .follow img {
-  height: 20px;
+  height: 32px;
 }
 
 .follow a {
   margin: 0;
-  cursor: pointer;
   max-height: 38px;
-  border: ridge white;
   padding: 8px;
-  border-radius: 10px;
-  transition: transform 1s;
 }
-
-.follow a:hover{
-  background-color: rgba(0, 0, 0, 0.719);
-  transform: translateY(-2px);
-}
-
 
 @keyframes animate {
   0% {
@@ -120,29 +88,28 @@
 /* RESPONSIVE DESIGN HEADER */
 
 @media (max-width: 600px) {
-.img-perfil {
-  margin: 0 auto;
-  height: 20vh;
-  width: auto;
-}
-.card-content {
-  grid-template-columns: repeat(1, 1fr) !important;
-}
-.card {
-  grid-template-columns: repeat(1, 1fr) !important;
-}
-p{
-  font-size: 14px;
-}
+  .img-perfil {
+    margin: 0 auto;
+    height: 20vh;
+    width: auto;
+  }
+  .card-content {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .card {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  p {
+    font-size: 14px;
+  }
 
-.follow img {
-  height: 15px;
+  .follow img {
+    height: 15px;
+  }
+  .follow a {
+    height: auto;
+  }
+  .distinguish {
+    --fs-size: 40px;
+  }
 }
-.follow a{
-  height: auto;
-}
-.distinguish{
-  --fs-size: 40px;
-}
-}
-
