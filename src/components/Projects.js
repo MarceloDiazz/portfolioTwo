@@ -6,46 +6,51 @@ import {
   TailwindSvgIcon,
 } from "../img/svg/svg-projects";
 import project from "../img/project.jpeg";
+import outlineIconGithub from "../img/outlineIconGithub.png";
+import iconLink from "../img/iconLink.png";
+import projectsTitle from "../img/projectTitle.png";
 
 const Projects = () => {
   return (
     <section id="projects" className="contenedor projectsSection">
-      <h2>
-        <span className="arrowIconTitle"></span> <span></span>
-        Proyectos
-      </h2>
+      <div className="titleSections">
+        <img src={projectsTitle} alt="projectsTitle" />
+        <h2>Proyectos</h2>
+      </div>
       <div className="cards">
         <div className="card-projects">
           <div className="card-img">
-            <img src={project} />
+            <div className="buttonsProject">
+              <a href="#/">
+                <img src={outlineIconGithub} alt="outlineIconGithub" />
+                Código
+              </a>
+              <a href="#/">
+                <img src={iconLink} alt="iconLink" />
+                Demo
+              </a>
+            </div>
+            <img src={project} alt="project" />
           </div>
           <div className="card-description">
             <h3>StyleCraft</h3>
             <div className="stackProjects">
-              <div style={{background:"#ff3e008a"}}>
-                <SvelteSvgIcon />
+              <div style={{ background: "#ff3e008a" }}>
                 <span>Svelte</span>
+                <SvelteSvgIcon />
               </div>
-              <div style={{background:"#3178c691"}}>
-
-                <TypeScriptSvgIcon />
-
+              <div style={{ background: "#3178c691" }}>
                 <span>TypeScript</span>
+                <TypeScriptSvgIcon />
               </div>
-              <div style={{background:"#38bdf891"}}>
-
-                <TailwindSvgIcon />
-
+              <div style={{ background: "#38bdf891" }}>
                 <span>Tailwind CSS</span>
+                <TailwindSvgIcon />
               </div>
             </div>
             <p>
-              Con esta herramienta, podes transformar tus imágenes de manera
-              rápida y sencilla. Desde eliminar fondos hasta rotar y redondear
-              bordes, tenemos diferentes tipos de efectos para dar vida a tus
-              imágenes.
+            Esta herramienta simplifica el proceso de transformar tus imágenes con rapidez y sencillez. puede crear una variedad de efectos, que incluyen rotar y redondear bordes, así como eliminar fondos, para ayudarlo a darle vida a sus imágenes.
             </p>
-            <div className="buttonsProject">2 BOTONES</div>
           </div>
         </div>
       </div>

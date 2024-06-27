@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/navbar.css";
-import codeIcon from "../img/code-icon.png";
 const Navbar = () => {
   return (
     <div className="contenedor navbar">
@@ -19,16 +18,6 @@ const Navbar = () => {
           <li>
             <a href="#about" className="about navbarItem">
               Sobre mí
-            </a>
-          </li>
-          <li>
-            <a href="#contact" className="contact navbarItem">
-              Black
-            </a>
-          </li>
-          <li>
-            <a href="#contact" className="navbarItem">
-              Idioma
             </a>
           </li>
         </ul>
