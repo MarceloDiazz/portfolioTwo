@@ -5,11 +5,11 @@ import iconSpain from "../img/spain.png";
 import iconPortugal from "../img/portugal.png";
 import iconDrag from "../img/drag.png";
 import iconGit from "../img/git.png";
-import iconPlanUser from "../img/planUser.png";
+import iconPlanUser from "../img/plan-user.png";
 import iconSpeed from "../img/speed.png";
 import iconMeeting from "../img/meeting.png";
 import iconNew from "../img/new.png";
-import experienceIcon from "../img/experienceTitle.png";
+import experienceIcon from "../img/experience-title.png";
 
 const Experience = () => {
   return (

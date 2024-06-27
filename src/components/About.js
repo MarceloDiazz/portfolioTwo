@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/about.css";
 import aboutPhoto from "../img/foto-about.png";
-import aboutTitle from "../img/aboutTitle.png";
+import aboutTitle from "../img/about-title.png";
 import stack from "../img/stack.png";
 import js from "../img/js-tag.png";
 import react from "../img/react-tag.png";

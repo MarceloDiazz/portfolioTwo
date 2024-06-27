@@ -6,9 +6,9 @@ import {
   TailwindSvgIcon,
 } from "../img/svg/svg-projects";
 import project from "../img/project.jpeg";
-import outlineIconGithub from "../img/outlineIconGithub.png";
-import iconLink from "../img/iconLink.png";
-import projectsTitle from "../img/projectTitle.png";
+import outlineIconGithub from "../img/outline-icon-github.png";
+import iconLink from "../img/icon-link.png";
+import projectsTitle from "../img/project-title.png";
 
 const Projects = () => {
   return (
