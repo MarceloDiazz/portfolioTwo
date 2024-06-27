@@ -52,7 +52,7 @@ const Experience = () => {
         </div>
         <ul class="tags">
           <li className="tag">
-            Traduccion
+            Traducción
             <img src={iconEnglish} alt="iconEnglish" />
             <img src={iconSpain} alt="iconSpain" />
             <img src={iconPortugal} alt="iconPortugal" />
@@ -70,7 +70,7 @@ const Experience = () => {
             <img src={iconPlanUser} alt="iconPlanUser" />
           </li>
           <li className="tag">
-            Optimizacion de codigo
+            Optimización de código
             <img src={iconSpeed} alt="iconSpeed" />
           </li>
           <li className="tag">

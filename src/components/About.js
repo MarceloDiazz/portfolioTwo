@@ -25,7 +25,7 @@ const About = () => {
         <div className="aboutCardContent">
           <p>
             Me llamo Marcelo, comencé en el mundo de la programación en
-            pandemia, actualmente tengo +2 años de experencia y estoy disponible
+            pandemia, actualmente tengo +2 años de experiencia y estoy disponible
             para trabajar.
           </p>
           <p>
