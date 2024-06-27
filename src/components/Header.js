@@ -1,6 +1,6 @@
 import React from "react";
 import fotoPerfil from "../img/foto-perfil.png";
-import iconLinkedin from "../img/iconLinkedin.png";
+// import iconLinkedin from "../img/iconLinkedin.png";
 import iconGmail from "../img/iconGmail.png";
 import iconGitHub from "../img/iconGithub.png";
 import iconCurriculum from "../img/iconCurriculum.png";
@@ -34,7 +34,7 @@ const Header = () => {
                 href="https://www.linkedin.com/in/marcelo-diaz2000/"
                 target="_blank "
               >
-                <img src={iconLinkedin} alt="Linkedin" />
+                {/* <img src={iconLinkedin} alt="iconLinkedin" /> */}
               </a>
               <a href="mailto:marcelodiazcp@gmail.com" target="_blank ">
                 {" "}

@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/footer.css";
 import iconGmail from "../img/iconGmail.png";
-import iconLinkedin from "../img/iconLinkedin.png";
+// import iconLinkedin from "../img/iconLinkedin.png";
 
 const Footer = () => {
   return (
@@ -14,7 +14,7 @@ const Footer = () => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/marcelo-diaz2000/"
           >
-            <img src={iconLinkedin} height={20} alt="iconLinkedin" />
+            {/* <img src={iconLinkedin} height={20} alt="iconLinkedin" /> */}
           </a>
           <a href="mailto:marcelodiazcp@gmail.com">
             <img src={iconGmail} height={20} alt="iconGmail" />
