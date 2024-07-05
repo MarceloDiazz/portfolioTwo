@@ -1,9 +1,10 @@
 import React from "react";
 import "../css/projects.css";
 import {
-  SvelteSvgIcon,
-  TypeScriptSvgIcon,
-  TailwindSvgIcon,
+  SvelteSvg,
+  TypeScriptSvg,
+  TailwindSvg,
+  ViteSvg,
 } from "../img/svg/svg-projects";
 import project from "../img/project.jpeg";
 import outlineIconGithub from "../img/outline-icon-github.png";
@@ -21,11 +22,11 @@ const Projects = () => {
         <div className="card-projects">
           <div className="card-img">
             <div className="buttonsProject">
-              <a href="#/">
+              <a href="https://github.com/MarceloDiazz/styleCraft">
                 <img src={outlineIconGithub} alt="outlineIconGithub" />
                 Código
               </a>
-              <a href="#/">
+              <a href="https://style-craft-zeta.vercel.app/">
                 <img src={iconLink} alt="iconLink" />
                 Demo
               </a>
@@ -37,15 +38,19 @@ const Projects = () => {
             <div className="stackProjects">
               <div style={{ background: "#ff3e008a" }}>
                 <span>Svelte</span>
-                <SvelteSvgIcon />
+                <SvelteSvg />
               </div>
               <div style={{ background: "#3178c691" }}>
                 <span>TypeScript</span>
-                <TypeScriptSvgIcon />
+                <TypeScriptSvg />
+              </div>
+              <div style={{ background: "#9b5ffe" }}>
+                <span> Vite </span>
+                <ViteSvg />
               </div>
               <div style={{ background: "#38bdf891" }}>
                 <span>Tailwind CSS</span>
-                <TailwindSvgIcon />
+                <TailwindSvg />
               </div>
             </div>
             <p>
