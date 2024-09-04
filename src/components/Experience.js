@@ -10,75 +10,76 @@ import iconSpeed from "../img/speed.png";
 import iconMeeting from "../img/meeting.png";
 import iconNew from "../img/new.png";
 import experienceIcon from "../img/experience-title.png";
+import { useTranslation } from "react-i18next";
 
 const Experience = () => {
+  const { t } = useTranslation();
   return (
     <section id="experience" className="contenedor">
       <div className="titleSections">
         <img src={experienceIcon} alt="experienceIcon" />
-        <h2>Experiencia Laboral</h2>
+        <h2>{t("experience")}</h2>
       </div>
       <div className="experienceContent">
-        <div class="timeline">
-          <div class="container right">
-            <div class="content-timeline">
+        <div className="timeline">
+          <div className="container right">
+            <div className="content-timeline">
               <div className="puesto">
-                <h3>Desarrollador Front End</h3>
+                <h3>{t("job")}</h3>
                 <h4>Oryzativa</h4>
-                <time>Marzo 2022 - Mayo 2024</time>
+                <time>
+                  {t("march")} 2022 - {t("june")} 2024
+                </time>
               </div>
               <div className="puesto-descripcion">
                 <p>
                   <span className="arrowIcon"></span> <span></span>
-                  +2 años como desarrollador, he sido responsable del proyecto
-                  en mi empresa, utilicé como framework principal ReactJS
+                  {t("descriptionExperience1")}
                   <br />
                   <br />
                   <span className="arrowIcon"></span> <span></span>
-                  Participé en un importante proyecto de migración de aplicaciones web que implicó la transferencia a una nueva arquitectura, lo que resultó en una mejora significativa en la estabilidad y velocidad del sitio.
+                  {t("descriptionExperience2")}
                   <br />
                   <br />
                   <span className="arrowIcon"></span> <span></span>
-                  Realicé gestión de usuarios, determinando los recursos y funcionalidades a las que pueden acceder los usuarios en función de los permisos otorgados.
+                  {t("descriptionExperience3")}
                   <br />
                   <br />
-                  Esto no solo me permitió crecer profesionalmente, sino también
-                  fortaleció mis habilidades técnicas y mi capacidad para
-                  manejar proyectos complejos con éxito.
+                  {t("descriptionExperience4")}
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <ul class="tags">
+        <ul className="tags">
           <li className="tag">
-            Traducción
+            {t("tagTranslation")}
             <img src={iconEnglish} alt="iconEnglish" />
             <img src={iconSpain} alt="iconSpain" />
             <img src={iconPortugal} alt="iconPortugal" />
           </li>
           <li className="tag">
-            Drag and Drop (Similar a Trello)
+            {t("tagDragDrop")}
             <img src={iconDrag} alt="iconDrag" />
           </li>
           <li className="tag">
-            Manejo de versiones con Git
+            {t("tagGit")}
             <img src={iconGit} alt="iconGit" />
           </li>
           <li className="tag">
-            Plan de usuario
+            {t("tagPlanUser")}
             <img src={iconPlanUser} alt="iconPlanUser" />
           </li>
           <li className="tag">
-            Optimización de código
+            {t("tagOptimization")}
             <img src={iconSpeed} alt="iconSpeed" />
           </li>
           <li className="tag">
-            Nuevas secciones
+            {t("tagNewSections")}
             <img src={iconNew} alt="iconNew" />
           </li>
           <li className="tag">
-            Encuentros semanales para definir proyectos
+            {t("tagMeetings")}
             <img src={iconMeeting} alt="iconMeeting" />
           </li>
         </ul>

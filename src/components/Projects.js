@@ -10,13 +10,15 @@ import project from "../img/project.jpeg";
 import outlineIconGithub from "../img/outline-icon-github.png";
 import iconLink from "../img/icon-link.png";
 import projectsTitle from "../img/project-title.png";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+  const { t } = useTranslation();
   return (
     <section id="projects" className="contenedor projectsSection">
       <div className="titleSections">
         <img src={projectsTitle} alt="projectsTitle" />
-        <h2>Proyectos</h2>
+        <h2>{t("projects")}</h2>
       </div>
       <div className="cards">
         <div className="card-projects">
@@ -24,11 +26,11 @@ const Projects = () => {
             <div className="buttonsProject">
               <a href="https://github.com/MarceloDiazz/styleCraft">
                 <img src={outlineIconGithub} alt="outlineIconGithub" />
-                Código
+                {t("buttonCode")}
               </a>
               <a href="https://style-craft-zeta.vercel.app/">
                 <img src={iconLink} alt="iconLink" />
-                Demo
+                {t("buttonDemo")}
               </a>
             </div>
             <img src={project} alt="project" />
@@ -53,9 +55,7 @@ const Projects = () => {
                 <TailwindSvg />
               </div>
             </div>
-            <p>
-            Esta herramienta simplifica el proceso de transformar tus imágenes con rapidez y sencillez. puede crear una variedad de efectos, que incluyen rotar y redondear bordes, así como eliminar fondos, para ayudarlo a darle vida a sus imágenes.
-            </p>
+            <p>{t("projectDescription")}</p>
           </div>
         </div>
       </div>

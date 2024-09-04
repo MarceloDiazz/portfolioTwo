@@ -4,9 +4,14 @@ import iconLinkedin from "../img/icon-linkedin.png";
 import iconGmail from "../img/icon-gmail.png";
 import iconGitHub from "../img/icon-github.png";
 import iconCurriculum from "../img/icon-curriculum.png";
-import cv from "../cv_marceloDiaz.pdf";
+import cvEN from "../cv/cv_marceloDiaz-EN.pdf";
+import cvES from "../cv/cv-marceloDiaz-ES.pdf";
 import "../css/header.css";
+import { useTranslation } from "react-i18next";
+import { useLanguage } from "../provider/LanguageContext";
 const Header = () => {
+  const { language } = useLanguage();
+  const { t } = useTranslation();
   return (
     <section id="home">
       <header className="contenedor headerSection">
@@ -15,13 +20,11 @@ const Header = () => {
             <div className="card-text">
               <h2>Marcelo Diaz</h2>
               <h1 className="distinguish">
-                <span className="hover-text">
-                  Desarrollador <br /> Front End
-                </span>
+                <span className="hover-text">{t("job")}</span>
               </h1>
               <p>
                 <span className="arrowIcon"></span> <span></span>
-                Me involucré profundamente en la creación digital, enfocándome en crear experiencias interactivas y funcionales para el usuario.
+                {t("description")}
               </p>
             </div>
             <img src={fotoPerfil} alt="fotoPerfil" className="img-perfil" />
@@ -40,7 +43,7 @@ const Header = () => {
                 {" "}
                 <img src={iconGmail} alt="Gmail" />
               </a>
-              <a href={cv} target="_blank ">
+              <a href={language === "es" ? cvES : cvEN} target="_blank ">
                 {" "}
                 <img src={iconCurriculum} alt="Curriculum" />
               </a>

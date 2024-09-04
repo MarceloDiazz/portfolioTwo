@@ -10,30 +10,25 @@ import git from "../img/git-tag.png";
 import tailwind from "../img/tailwind-tag.png";
 import firebase from "../img/firebase-tag.png";
 import flutter from "../img/flutter-tag.png";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="about" className="aboutSection contenedor">
       <div className="titleSections">
         <img src={aboutTitle} alt="aboutTitle" />
-        <h2>Sobre mí</h2>
+        <h2>{t("aboutMe")}</h2>
       </div>
       <div className="aboutCard">
         <div className="aboutCardPhoto">
           <img src={aboutPhoto} alt="foto-about" />
         </div>
         <div className="aboutCardContent">
-          <p>
-            Me llamo Marcelo, comencé en el mundo de la programación en
-            pandemia, actualmente tengo +2 años de experiencia y estoy disponible
-            para trabajar.
-          </p>
-          <p>
-          El ajedrez es un juego que me gusta jugar, me hace más hábil para resolver problemas de manera metódica y creativa, y también es uno de mis hobbies.
-          </p>
-          <p>
-          Busco activamente oportunidades en el desarrollo web para aplicar mi experiencia y aprender con nuevos desafíos.
-          </p>
+          <p>{t("aboutMeDescription1")}</p>
+          <p>{t("aboutMeDescription2")}</p>
+          <p>{t("aboutMeDescription3")}</p>
           <div className="titleSections">
             <img height={18} src={stack} alt="stack" />
             <h5>Stack</h5>
@@ -45,6 +40,10 @@ const About = () => {
             </li>
             <li className="stackItem">
               React JS
+              <img height={18} src={react} alt="react" />
+            </li>
+            <li className="stackItem">
+              Redux
               <img height={18} src={react} alt="react" />
             </li>
             <li className="stackItem">
