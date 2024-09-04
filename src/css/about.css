@@ -61,28 +61,34 @@
   background-color: #1399c4;
 }
 
-/* TS */
+/* REDUX */
 .stackItem:nth-child(3) {
+  background-color: #7248b6;
+}
+
+
+/* TS */
+.stackItem:nth-child(4) {
   background-color: #007acc;
 }
 
 /* GIT */
-.stackItem:nth-child(4) {
+.stackItem:nth-child(5) {
   background-color: #e84d31;
 }
 /* Tailwind */
-.stackItem:nth-child(5) {
+.stackItem:nth-child(6) {
   background-color: #36b7f0;
 }
 
 /* Firebase */
-.stackItem:nth-child(6) {
+.stackItem:nth-child(7) {
   color: rgb(58, 53, 53);
 
   background-color: #ffcc28;
 }
 /* Flutter */
-.stackItem:nth-child(7) {
+.stackItem:nth-child(8) {
   background-color: #085597;
 }
 
