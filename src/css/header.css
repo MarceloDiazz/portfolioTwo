@@ -23,10 +23,9 @@
 .img-perfil {
   max-height: 35vh;
   object-fit: cover;
-  border-radius: 50%;
-  background-color: rgba(128, 128, 128, 0.541);
+  border-radius: 20px;
+  background: gray;
 }
-
 
 /* button styling */
 .distinguish {
