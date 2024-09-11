@@ -6,10 +6,10 @@ import {
   TailwindSvg,
   ViteSvg,
 } from "../img/svg/svg-projects";
-import project from "../img/project.jpeg";
-import outlineIconGithub from "../img/outline-icon-github.png";
-import iconLink from "../img/icon-link.png";
-import projectsTitle from "../img/project-title.png";
+import project from "../img/img-icons/project.jpeg";
+import outlineIconGithub from "../img/img-icons/outline-icon-github.png";
+import iconLink from "../img/img-icons/icon-link.png";
+import projectsTitle from "../img/img-icons/project-title.png";
 import { useTranslation } from "react-i18next";
 
 const Projects = () => {

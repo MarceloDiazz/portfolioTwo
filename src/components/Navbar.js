@@ -2,8 +2,8 @@ import React from "react";
 import "../css/navbar.css";
 import { useTranslation } from "react-i18next";
 import { useLanguage } from "../provider/LanguageContext";
-import spain from "../img/spain.png";
-import english from "../img/english.png";
+import spain from "../img/img-icons/spain.png";
+import english from "../img/img-icons/english.png";
 const Navbar = () => {
   const { t } = useTranslation();
   const { language, changeLanguage } = useLanguage();
@@ -15,7 +15,7 @@ const Navbar = () => {
       <nav className="content-navbar">
         <ul className="nav-links">
           <li>
-            <a href="#experience" className="experience active navbarItem">
+            <a href="#experience" className="experience navbarItem">
               {t("experience")}
             </a>
           </li>

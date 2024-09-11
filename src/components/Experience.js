@@ -1,15 +1,15 @@
 import React from "react";
 import "../css/experience.css";
-import iconEnglish from "../img/english.png";
-import iconSpain from "../img/spain.png";
-import iconPortugal from "../img/portugal.png";
-import iconDrag from "../img/drag.png";
-import iconGit from "../img/git.png";
-import iconPlanUser from "../img/plan-user.png";
-import iconSpeed from "../img/speed.png";
-import iconMeeting from "../img/meeting.png";
-import iconNew from "../img/new.png";
-import experienceIcon from "../img/experience-title.png";
+import iconEnglish from "../img/img-icons/english.png";
+import iconSpain from "../img/img-icons/spain.png";
+import iconPortugal from "../img/img-icons/portugal.png";
+import iconDrag from "../img/img-icons/drag.png";
+import iconGit from "../img/img-icons/git.png";
+import iconPlanUser from "../img/img-icons/plan-user.png";
+import iconSpeed from "../img/img-icons/speed.png";
+import iconMeeting from "../img/img-icons/meeting.png";
+import iconNew from "../img/img-icons/new.png";
+import experienceIcon from "../img/img-icons/experience-title.png";
 import { useTranslation } from "react-i18next";
 
 const Experience = () => {

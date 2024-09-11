@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/footer.css";
-import iconGmail from "../img/icon-gmail.png";
-import iconLinkedin from "../img/icon-linkedin.png";
+import iconGmail from "../img/img-icons/icon-gmail.png";
+import iconLinkedin from "../img/img-icons/icon-linkedin.png";
 
 const Footer = () => {
   return (
