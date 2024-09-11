@@ -4,104 +4,148 @@
   position: relative;
 }
 
-.aboutCardPhoto img {
-  height: 100%;
-  object-fit: cover;
-}
-
-.aboutCard {
-  display: grid;
-  grid-template-columns: 0.5fr 1fr;
+.aboutCard{
+  min-width: 400px;
+  width: 830px;
+  max-width: 850px;
 }
 
 .aboutCardContent {
   color: white;
-  padding: 30px;
+  padding: 0px;
   align-content: center;
   margin: 0;
 }
 
-.aboutCardParaGraph span {
-  color: #bfa181;
-}
-
-.stackList {
-  list-style: none;
-  margin: 0;
-  overflow: hidden;
-  padding: 0;
-}
-.stackList li {
-  float: left;
-}
-
-.stackItem {
-  font-size: 16px;
-  border-radius: 2px;
-  color: white;
-  display: inline-block;
-  height: 25px;
-  padding: 0 25px 0 25px;
+.tag-list {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: 2rem;
   position: relative;
-  margin: 0 10px 10px 0;
-  text-decoration: none;
+  padding: 1.5rem 0;
+  overflow: hidden;
+}
+
+.loop-slider {
+  .inner {
+    display: flex;
+    width: fit-content;
+    animation-name: loop;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: var(--direction);
+    animation-duration: var(--duration);
+  }
+}
+
+.tag-stack {
+  height: 42px;
   display: flex;
   align-items: center;
-  gap: 5px;
-  font-weight: 500;
+  gap: 10px;
+  font-size: 1.2rem;
+  border-radius: 0.4rem;
+  padding: 0.7rem 1rem;
+  margin-right: 1rem;
+  box-shadow: 0 0.1rem 0.2rem rgb(0 0 0 / 20%),
+  0 0.1rem 0.5rem rgb(0 0 0 / 30%),
+  0 0.2rem 1.5rem rgb(0 0 0 / 40%);
+  
+  span {
+    font-size: 1.2rem;
+    color: #64748b;
+  }
+}
+
+.fade {
+  pointer-events: none;
+  background: linear-gradient(90deg, #0c2640, transparent 4%, transparent 96%, #0c2540);
+  position: absolute;
+  inset: 0;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 800px) {
+  .aboutCard{
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .tag-stack{
+    height: 30px;
+    gap: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tag-stack{
+    height: 25px;
+    gap: 3px;
+  }
 }
 
 /* JS */
-.stackItem:nth-child(1) {
-  color: rgb(58, 53, 53);
+.js {
+  color: rgb(95, 15, 15);
   background-color: #f7df1e;
 }
+
+/* CSS */
+.css {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 /* REACT */
-.stackItem:nth-child(2) {
+.react {
   background-color: #1399c4;
 }
 
 /* REDUX */
-.stackItem:nth-child(3) {
+.redux {
   background-color: #7248b6;
 }
 
-
 /* TS */
-.stackItem:nth-child(4) {
+.ts {
   background-color: #007acc;
 }
 
 /* GIT */
-.stackItem:nth-child(5) {
+.git {
   background-color: #e84d31;
 }
 /* Tailwind */
-.stackItem:nth-child(6) {
+.tailwind {
   background-color: #36b7f0;
 }
 
 /* Firebase */
-.stackItem:nth-child(7) {
+.firebase {
   color: rgb(58, 53, 53);
 
   background-color: #ffcc28;
 }
 /* Flutter */
-.stackItem:nth-child(8) {
+.flutter {
   background-color: #085597;
 }
 
-/* RESPONSIVE DESIGN */
+.svelte {
+  background-color: #f73c00;
+}
 
-@media (max-width: 600px) {
-  .aboutCard {
-    grid-template-columns: 1fr;
-  }
-
-  .aboutCardPhoto {
-    background: none;
-    padding-left: 20%;
-    padding-right: 20%;
-  }
+.node{
+  background-color: #84bf08;
 }
