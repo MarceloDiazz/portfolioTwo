@@ -126,7 +126,16 @@
   grid-gap: 60px;
   padding-top: 80px;
   grid-template-columns: repeat(1, 2fr);
+  opacity: 0;
+  transform: translateY(100px); /* Inicia la card más abajo */
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
+/* Cuando la card está visible */
+.cards.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .card-description {
   display: grid;
 }
